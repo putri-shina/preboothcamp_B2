@@ -25,19 +25,19 @@ function suhu(param1, param2, param3) {
       return hasil;
     }
     else if (param1 =="fahrenheit" && param3 =="reamur"){
-      const hasil=4/9*(param2-32)
+      const hasil=4/9*(param2-32);
       return hasil;
     }
     else if (param1 =="fahrenheit" && param3 =="celsius"){
-      const hasil=5/9*(param2-32)
+      const hasil=5/9*(param2-32);
       return hasil;
     }
     else if (param1 =="fahrenheit" && param3 =="kelvin"){
-      const hasil=5/9*(param2-32)+ 273
+      const hasil=5/9*(param2-32)+ 273;
       return hasil;
     }
     else if (param1 =="kelvin" && param3 =="reamur"){
-      const hasil=4/5*(param2+273)
+      const hasil=4/5*(param2+273);
       return hasil;
     }
     else if (param1 =="kelvin" && param3 =="celsius"){
