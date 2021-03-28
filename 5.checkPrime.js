@@ -3,4 +3,4 @@ function cekAngka(param){
      if(param % i === 0) return false;
     return param > 1;
   }
-  console.log(cekAngka(23))
+  console.log(cekAngka(23));

@@ -1,31 +1,31 @@
 
 function pengulanganSatu(param){
-  const array = []
+  const array = [];
 
   for (let i=1; array.length<param; i++){
-    array.push(i)
+    array.push(i);
   } 
-  return array
+  return array;
 
-} console.log(pengulanganSatu(15))
+} console.log(pengulanganSatu(15));
 
 function kuadrat(param){
-  const pengulangan = []
+  const pengulangan = [];
   for (let i=1; pengulangan.length<param; i++){
-    const loopDua=i*i
-    pengulangan.push(loopDua)
+    const loopDua=i*i;
+    pengulangan.push(loopDua);
   } 
-  return pengulangan
+  return pengulangan;
 
-} console.log(kuadrat(15))
+} console.log(kuadrat(15));
 
 function perkalianTiga(param){
-  const pengulangan = []
+  const pengulangan = [];
   for (let i=1; pengulangan.length<param; i++){
-    const loopTiga=i*3
-    pengulangan.push(loopTiga)
+    const loopTiga=i*3;
+    pengulangan.push(loopTiga);
   } 
-  return pengulangan
+  return pengulangan;
 
-} console.log(perkalianTiga(20))
+} console.log(perkalianTiga(20));
 

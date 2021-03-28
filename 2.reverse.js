@@ -1,4 +1,4 @@
 function reverse(param) {
-    return param.reverse()
+    return param.reverse();
   }
-  console.log(reverse(["1","2","3","4"]))
+  console.log(reverse(["1","2","3","4"]));
