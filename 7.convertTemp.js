@@ -50,6 +50,6 @@ function suhu(param1, param2, param3) {
     }
  }
  
- console.log(suhu("celsius", 67, "reamur"));
+ console.log(suhu("fahrenheit", 88, "kelvin"));
  
  
