@@ -8,8 +8,8 @@
 
 function checkKalimat(params) {
   
-    let kata = params.split('m').length - 1
+    let kata = params.split('a').length - 1;
     
-    return kata
+    return kata;
    }
-   console.log(checkKalimat("ayam makan nasi"))
+   console.log(checkKalimat("saya mau makan nasi ya guys"));

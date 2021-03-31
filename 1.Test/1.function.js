@@ -1,14 +1,15 @@
   //regular function
-  function printIni(text){
+  function printThisWord(text){
     console.log(text);
   }
-  printIni("Tugas 1");
+  printThisWord("Tugas 1");
+  
 
 //arrow function
-  const buah = (param) => {
+  const fruit = (param) => {
     return param;
   }
-  console.log(buah("Apel"));
+  console.log(fruit("Apel"));
 
 
 

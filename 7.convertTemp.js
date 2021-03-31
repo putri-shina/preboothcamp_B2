@@ -1,4 +1,4 @@
-function suhu(param1, param2, param3) {
+function temperature(param1, param2, param3) {
   
     if (param1 =="celsius" && param3 =="reamur"){
       const hasil=param2*4/5;
@@ -50,6 +50,7 @@ function suhu(param1, param2, param3) {
     }
  }
  
- console.log(suhu("fahrenheit", 88, "kelvin"));
+//  console.log(temperature("fahrenheit", 88, "kelvin"));
+ document.write(temperature("fahrenheit", 88, "kelvin"))
  
  
